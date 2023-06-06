@@ -1,0 +1,138 @@
+2022-11-21 17:35:05.088  INFO 16784 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : Starting ElkExampleSpringBootApplication on DESKTOP-P6BDSSV with PID 16784 (C:\Users\HOME\Desktop\Srini_work\elk-example-spring-boot\elk-example-spring-boot\target\classes started by HOME in C:\Users\HOME\Desktop\Srini_work\elk-example-spring-boot\elk-example-spring-boot)
+2022-11-21 17:35:05.092  INFO 16784 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : No active profile set, falling back to default profiles: default
+2022-11-21 17:35:05.178  INFO 16784 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41330d4f: startup date [Mon Nov 21 17:35:05 IST 2022]; root of context hierarchy
+2022-11-21 17:35:07.137  INFO 16784 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2022-11-21 17:35:07.158  INFO 16784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-21 17:35:07.164  INFO 16784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2022-11-21 17:35:07.305  INFO 16784 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-21 17:35:07.306  INFO 16784 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2139 ms
+2022-11-21 17:35:07.480  INFO 16784 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2022-11-21 17:35:07.486  INFO 16784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-11-21 17:35:07.487  INFO 16784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-11-21 17:35:07.487  INFO 16784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-11-21 17:35:07.488  INFO 16784 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-11-21 17:35:07.838  INFO 16784 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41330d4f: startup date [Mon Nov 21 17:35:05 IST 2022]; root of context hierarchy
+2022-11-21 17:35:07.912  INFO 16784 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/exception]}" onto public java.lang.String com.example.howtodoinjava.elkexamplespringboot.ELKController.exception()
+2022-11-21 17:35:07.913  INFO 16784 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/elk]}" onto public java.lang.String com.example.howtodoinjava.elkexamplespringboot.ELKController.helloWorld()
+2022-11-21 17:35:07.918  INFO 16784 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-11-21 17:35:07.918  INFO 16784 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-11-21 17:35:07.947  INFO 16784 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-11-21 17:35:07.947  INFO 16784 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-11-21 17:35:07.988  INFO 16784 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-11-21 17:35:08.152  INFO 16784 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-11-21 17:35:08.267  INFO 16784 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2022-11-21 17:35:08.275  INFO 16784 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : Started ElkExampleSpringBootApplication in 3.757 seconds (JVM running for 11.716)
+2022-11-21 17:53:25.827  INFO 16784 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-11-21 17:53:25.847  INFO 16784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2022-11-21 17:53:26.038  INFO 16784 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 190 ms
+2022-11-21 17:53:26.148  INFO 16784 --- [http-nio-8080-exec-1] c.e.h.e.ELKController                    : Welcome to JavaInUseMon Nov 21 17:53:26 IST 2022
+2022-11-21 17:53:43.327 ERROR 16784 --- [http-nio-8080-exec-5] c.e.h.e.ELKController                    : java.lang.Exception: Exception has occured....
+2022-11-21 17:53:43.331 ERROR 16784 --- [http-nio-8080-exec-5] c.e.h.e.ELKController                    : Exception - java.lang.Exception: Exception has occured....
+	at com.example.howtodoinjava.elkexamplespringboot.ELKController.exception(ELKController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2023-05-30 14:20:38.631  INFO 22036 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : Starting ElkExampleSpringBootApplication on DESKTOP-P6BDSSV with PID 22036 (C:\Users\HOME\Desktop\Srini_work\elk-example-spring-boot\elk-example-spring-boot\target\classes started by HOME in C:\Users\HOME\Desktop\Srini_work\elk-example-spring-boot\elk-example-spring-boot)
+2023-05-30 14:20:38.637  INFO 22036 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : No active profile set, falling back to default profiles: default
+2023-05-30 14:20:38.827  INFO 22036 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41330d4f: startup date [Tue May 30 14:20:38 IST 2023]; root of context hierarchy
+2023-05-30 14:20:40.876  INFO 22036 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 14:20:40.898  INFO 22036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 14:20:40.900  INFO 22036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2023-05-30 14:20:41.033  INFO 22036 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 14:20:41.035  INFO 22036 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2255 ms
+2023-05-30 14:20:41.218  INFO 22036 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-05-30 14:20:41.223  INFO 22036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-05-30 14:20:41.225  INFO 22036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-05-30 14:20:41.225  INFO 22036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-05-30 14:20:41.225  INFO 22036 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-05-30 14:20:41.606  INFO 22036 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41330d4f: startup date [Tue May 30 14:20:38 IST 2023]; root of context hierarchy
+2023-05-30 14:20:41.688  INFO 22036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/exception]}" onto public java.lang.String com.example.howtodoinjava.elkexamplespringboot.ELKController.exception()
+2023-05-30 14:20:41.689  INFO 22036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/elk],methods=[GET]}" onto public java.lang.String com.example.howtodoinjava.elkexamplespringboot.ELKController.helloWorld()
+2023-05-30 14:20:41.694  INFO 22036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-05-30 14:20:41.695  INFO 22036 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-05-30 14:20:41.731  INFO 22036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-05-30 14:20:41.731  INFO 22036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-05-30 14:20:41.781  INFO 22036 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-05-30 14:20:41.966  INFO 22036 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-05-30 14:20:42.077  INFO 22036 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2023-05-30 14:20:42.085  INFO 22036 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : Started ElkExampleSpringBootApplication in 4.08 seconds (JVM running for 4.874)
+2023-05-30 14:21:40.229  INFO 22036 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2023-05-30 14:21:40.230  INFO 22036 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2023-05-30 14:21:40.264  INFO 22036 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2023-05-30 14:21:40.300  INFO 22036 --- [http-nio-8080-exec-2] c.e.h.e.ELKController                    : Welcome to JavaInUseTue May 30 14:21:40 IST 2023
+2023-05-30 22:12:24.630  INFO 30516 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : Starting ElkExampleSpringBootApplication on DESKTOP-P6BDSSV with PID 30516 (C:\Users\HOME\Desktop\Srini_work\elk-example-spring-boot\elk-example-spring-boot\target\classes started by HOME in C:\Users\HOME\Desktop\Srini_work\elk-example-spring-boot\elk-example-spring-boot)
+2023-05-30 22:12:24.637  INFO 30516 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : No active profile set, falling back to default profiles: default
+2023-05-30 22:12:24.722  INFO 30516 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41330d4f: startup date [Tue May 30 22:12:24 IST 2023]; root of context hierarchy
+2023-05-30 22:12:26.695  INFO 30516 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8090 (http)
+2023-05-30 22:12:26.714  INFO 30516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 22:12:26.716  INFO 30516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2023-05-30 22:12:26.848  INFO 30516 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 22:12:26.849  INFO 30516 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2139 ms
+2023-05-30 22:12:27.042  INFO 30516 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2023-05-30 22:12:27.048  INFO 30516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-05-30 22:12:27.049  INFO 30516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-05-30 22:12:27.050  INFO 30516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-05-30 22:12:27.050  INFO 30516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-05-30 22:12:27.421  INFO 30516 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41330d4f: startup date [Tue May 30 22:12:24 IST 2023]; root of context hierarchy
+2023-05-30 22:12:27.496  INFO 30516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/exception]}" onto public java.lang.String com.example.howtodoinjava.elkexamplespringboot.ELKController.exception()
+2023-05-30 22:12:27.497  INFO 30516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/elk],methods=[GET]}" onto public java.lang.String com.example.howtodoinjava.elkexamplespringboot.ELKController.helloWorld()
+2023-05-30 22:12:27.502  INFO 30516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-05-30 22:12:27.502  INFO 30516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-05-30 22:12:27.534  INFO 30516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-05-30 22:12:27.534  INFO 30516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-05-30 22:12:27.573  INFO 30516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-05-30 22:12:27.739  INFO 30516 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2023-05-30 22:12:27.843  INFO 30516 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8090 (http)
+2023-05-30 22:12:27.850  INFO 30516 --- [main] c.e.h.e.ElkExampleSpringBootApplication  : Started ElkExampleSpringBootApplication in 3.959 seconds (JVM running for 11.663)

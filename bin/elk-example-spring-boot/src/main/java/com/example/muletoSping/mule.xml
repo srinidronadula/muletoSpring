@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:spring="http://www.mulesoft.org/schema/mule/spring"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/spring http://www.mulesoft.org/schema/mule/spring/current/mule-spring.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="9af384d0-e5ed-489a-b535-2f72a202df9d" >
+		<http:listener-connection host="localhost" port="8081" />
+	</http:listener-config>
+		<flow name="hellomuleFlow" doc:id="e3cd7226-dff5-41ef-a15d-251d23c02472" >
+		<http:listener doc:name="Listener" doc:id="34b57c31-5c59-4116-b627-b073ba292b55" path="/hellomule" config-ref="HTTP_Listener_config" allowedMethods="GET">
+			</http:listener>
+		<ee:transform doc:name="Transform Message" doc:id="a1e6731a-3720-45f9-a3d5-70c54283d23b">
+			<ee:message>
+				<ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+{
+	"muleoutput" : "welcome"}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
+</mule>
